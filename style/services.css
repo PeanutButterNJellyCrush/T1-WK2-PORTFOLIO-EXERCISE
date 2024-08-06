@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.main_body{
+    background-color: var(--primary-background);
+}
+
+article{
+    background-color: var(--secondary-color);
+    margin: 23px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.service_image img{
+    width: 300px;
+}

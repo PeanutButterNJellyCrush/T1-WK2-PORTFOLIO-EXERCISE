@@ -58,3 +58,13 @@ Footer has social media links and some other information such as contact and add
   <p>Address: 1 Street Name, Suburb</p>
 </div>
 ```
+
+## Pages
+
+### Home
+
+Home page is the starting page of the website which consists of cover image and some details about the business.
+
+### Services
+
+Services pages shows different services provided by the business such as web development. This page shoes three services.

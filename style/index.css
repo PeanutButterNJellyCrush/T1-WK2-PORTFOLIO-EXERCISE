@@ -4,6 +4,12 @@
     --primary-background:#a5a5a5;
 
 }
+
+.main_body{
+    background-color: var(--primary-background);
+
+
+}
 body{
     display: flex;
     flex-direction: column;
@@ -11,7 +17,7 @@ body{
     justify-content: space-between;
 
     margin: 0;
-    background-color: var(--primary-background)
+    /*background-color: var(--primary-background)*/
 }
 
 header{
@@ -73,9 +79,9 @@ footer {
 }
 
 .info p{
-    margin: 0;
+    margin: 4px 0;
 }
-@media screen and (min-width: 578px){
+@media screen and (min-width: 568px){
     header{
         display: flex;
         align-items: flex-end;
@@ -91,5 +97,10 @@ footer {
         width:60%;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        padding: 0 15vw;
     }
 }
