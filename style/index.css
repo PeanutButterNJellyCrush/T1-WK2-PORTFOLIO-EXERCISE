@@ -5,6 +5,11 @@
 
 }
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+
     margin: 0;
     background-color: var(--primary-background)
 }
@@ -40,4 +45,24 @@ nav{
 nav a {
     text-decoration: none;
     color: #1C3C5C;
+}
+footer {
+    background-color: var(--primary-color);
+    padding: 16px;
+    text-align: center;
+}
+.social_media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32 px;
+}
+.social_media a i {
+    color: #04181e;
+    font-size: 20px;
+}
+.info{
+    color: #04181e;
+}
+.info p{
+    margin: 0;
 }
