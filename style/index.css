@@ -28,14 +28,18 @@ header{
 }
 
 .ca_name{
-    font-size: 20px;
+    font-size: 30px;
+    margin: 0;
 }
+
 .coder_text{
     color: #1C3C5C;
+
 }
-.acadamey_text{
+.acadamy_text{
     color: #45A7C5;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -46,23 +50,46 @@ nav a {
     text-decoration: none;
     color: #1C3C5C;
 }
+
 footer {
     background-color: var(--primary-color);
     padding: 16px;
     text-align: center;
 }
+
 .social_media {
     display: flex;
     justify-content: space-around;
     margin-bottom: 32 px;
 }
+
 .social_media a i {
     color: #04181e;
     font-size: 20px;
 }
+
 .info{
     color: #04181e;
 }
+
 .info p{
     margin: 0;
+}
+@media screen and (min-width: 578px){
+    header{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .logo_name{
+        margin-bottom: 0;
+    }
+    nav{
+        width: 50%;
+    }
+    .social_media{
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

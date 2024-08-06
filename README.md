@@ -34,3 +34,27 @@ Here is the code for the header:
   </nav>
 </header>
 ```
+
+### Footer
+
+Footer has social media links and some other information such as contact and address.
+
+```html
+<div class="social_media">
+  <a href="https:www.facebook.com" target="_blank"
+    ><i class="fa-brands fa-facebook"></i
+  ></a>
+  <a href="https:www.linkedin.com" target="_blank"
+    ><i class="fa-brands fa-linkedin"></i
+  ></a>
+  <a href="https:www.twitter.com" target="_blank"
+    ><i class="fa-brands fa-twitter"></i
+  ></a>
+  <span class="FB"></span>
+</div>
+
+<div class="info">
+  <p>Contact:2345-2342-2345</p>
+  <p>Address: 1 Street Name, Suburb</p>
+</div>
+```
