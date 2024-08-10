@@ -2,22 +2,25 @@
     --primary-color: #ffb6b6;
     --secondary-color: #d9d9d9;
     --primary-background:#a5a5a5;
+    --primary-hover: #e7c5c5;
+
+    --medium-breakpoint: 576px;
+    --large-breakpoint: 768px;
+}
+
+body{
+    margin: 0;
+    /*background-color: var(--primary-background)*/
 
 }
 
 .main_body{
     background-color: var(--primary-background);
 
-
-}
-body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
-
-    margin: 0;
-    /*background-color: var(--primary-background)*/
 }
 
 header{

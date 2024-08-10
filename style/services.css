@@ -4,11 +4,6 @@ main{
     justify-content: center;
 }
 
-
-.main_body{
-    background-color: var(--primary-background);
-}
-
 article{
     background-color: var(--secondary-color);
     margin: 23px;
